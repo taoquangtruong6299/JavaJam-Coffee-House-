@@ -2,23 +2,71 @@ body {
   background-color: #fcebb6;
   color: #221811;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 80%;
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
 header {
   background-color: #d2b48c;
-  text-align: center;
+  height: 150px;
 }
 header h1{
-  line-height: 200%;
+  padding-top: 45px;
+  padding-left: 220px;
+  font-size: 3em;
 }
+
 nav{
   text-align: center;
   font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+nav a{
+  text-decoration: none;
 }
 footer{
   background-color: #d2b48c;
   font-size: .60em;
   text-align: center;
+  padding-bottom: 8px;
+  border: 2px solid #221811;
+}
+main{
+  padding: 0 2em 2em 2em;
+  display: block;
+}
+main .main-img-content{
+  float: right;
+  margin-top: -2.5rem;
+}
+header .logo{
+  float: left;
+  height: 150px;
+}
+main .details img{
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  height: 100px;
+}
+main .details{
+  height: 120px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+main .details p
+{
+  padding-top: 83px;
+}
+#wrapper{
+  background-color: #FEF6C2;
+  min-width: 900px;
+  max-width: 1280px;
+}
+main h4{
+  background-color: #d2b48c;
+  font-size: 1.2em;
+  padding: .5em;
+  padding-bottom: .25em;
 }
